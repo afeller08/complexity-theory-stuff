@@ -52,12 +52,12 @@ The code above is a fairly straightforward algorithm.
 The comparisons and the additions above can be easily optimized away.
 The main question is whether or not the subtractions can be given
 that one term remains constant in all of them.
+
+I think that the way to do this is to grab O(len(m)) bits at once from
+n rather than getting them one at a time.
+
+The last digit of a billion in base 1117 is the last digit of (the last
+digit of a million times a thousand).
 '''
 
 
-class CircularBitArray(list):
-    def __init__(self, len):
-        i = 0
-        while i < len:
-            i += 1
-            list.append(self, 0)
