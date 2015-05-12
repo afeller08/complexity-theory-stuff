@@ -1,6 +1,3 @@
-exploits
-========
-
 Some python code where I work on coming up with asymptotically fast algorithms, and some C code that is designed to be just plain fast.
 
 The python code is generally very inefficient and not meant to be run. I use python because it's less ambiguous than pseudocode, it contains libraries that I can import and reference non-ambiguously, and it is almost as readable as pseudocode. 
